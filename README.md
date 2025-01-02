@@ -20,7 +20,7 @@ pkg install git -y
 # clone repo using git clone command
 
 ```
-git clone https://github.com/JusteenDev/Termux-X11-Lazy-Install && cd Termux-X11-Lazy-Install && cd
+git clone https://github.com/JusteenDev/Termux-X11-Lazy-Install && cd Termux-X11-Lazy-Install && ls
 
 ```
 
