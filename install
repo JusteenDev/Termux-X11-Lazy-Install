@@ -1,0 +1,35 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+echo "updating..."
+pkg update > /dev/null 2>&1
+
+echo "upgrading..."
+pkg upgrade -y > /dev/null 2>&1
+
+echo "installing x11"
+pkg install x11-repo -y > /dev/null 2>&1
+
+echo "installing tur-repo"
+pkg install tur-repo -y > /dev/null 2>&1
+
+echo "installing x11-package"
+pkg install termux-x11-nightly -y > /dev/null 2>&1
+
+echo "installing pulse audio"
+pkg install pulseaudio -y > /dev/null 2>&1
+
+echo "file permission... ( required )"
+termux-setup-storage
+
+echo "installing firefox..."
+pkg install firefox -y > /dev/null 2>&1
+
+echo "installing vscode ( code-oss )"
+pkg install code-oss -y > /dev/null 2>&1
+
+
+echo "installing important packages"
+pkg install wget neovim nodejs python3 openjdk-17 neofetch htop -y > /dev/null 2>&1
+
+echo "installing xfce desktop"
+pkg install xfce -y > /dev/null 2>&1
