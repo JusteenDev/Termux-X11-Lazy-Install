@@ -1,6 +1,6 @@
 # Termux X11 XFCE
 
-Termux X11 is a Desktop inside Termux Terminal use Termux App from playstore version 0.118.1 Universal for compatibility
+Termux X11 is a Desktop inside Termux Terminal dont use Termux App from playstore version 0.118.1 Universal for compatibility
 [HERE](https://github.com/termux/termux-app/releases/tag/v0.118.1) also the termux X11 Application Add on [HERE](https://github.com/termux/termux-x11/releases/tag/nightly)
 
 In Termux Terminal use this commands
